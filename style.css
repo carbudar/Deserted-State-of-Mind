@@ -61,19 +61,19 @@ body, html {
     font-weight: 700;
     white-space: nowrap; /* Prevent text from wrapping */
     line-height: 200%;
-    color: rgb(183,65,28);
+    color: rgb(183,65,28);/*orange*/
 }
 
 #vid1 {/* video background page 2 */
     position: fixed; 
     top: 0;
     left: 0;
-    min-width: 100%; /* Set minimum width to 100% */
-    min-height: 100%; /* Set minimum height to 100% */
-    width: auto; /* Set width to auto */
-    height: auto; /* Set height to auto */
-    z-index: -1; /* Send the video to the background */
-    object-fit: cover; /* Cover the entire viewport */
+    min-width: 100%; 
+    min-height: 100%; 
+    width: auto; 
+    height: auto; 
+    z-index: -1; 
+    object-fit: cover; 
     filter: blur(5px);
 }
 
@@ -90,7 +90,7 @@ body, html {
 }
 
 
-.rec1 {/* white rect over video background page*/
+.rec1 {/* white rect over video background page 2*/
     position: absolute;
     top: 0;
     left: 0;
@@ -99,7 +99,7 @@ body, html {
     background: rgba(255, 255, 255, 0.75);
   }
 
-  .rec2 {/* white rect over video background page*/
+  .rec2 {/* white rect over video background page 4*/
     position: absolute;
     top: 0;
     left: 0;
@@ -109,12 +109,12 @@ body, html {
     z-index: 0;
   }
 
-h2{
+h2{ /*texts in page 2*/
     font-size: 100%;
     line-height: 200%;
 }
 
-#center {
+#center { /*texts in page 2 orientation*/
     text-align: center;
     margin-top: 40vh;
     color:rgb(44, 44, 44);
@@ -131,9 +131,9 @@ h2{
     position: absolute;
     top:30.35%;
     left: 37.7%;
-    z-index: 1; /* Ensure the button is above the image */
-    width: 188px; /* Adjust as needed */
-    height: 188px; /* Adjust as needed */
+    z-index: 1; 
+    width: 11.8rem; 
+    height: 11.8rem; 
 }
 .btnhome1:hover{
     background-color: rgba(147,49,22,0.5);
@@ -149,9 +149,9 @@ h2{
     position: absolute;
     top:46%;
     left: 62.8%;
-    z-index: 1; /* Ensure the button is above the image */
-    width: 188px; /* Adjust as needed */
-    height: 188px; /* Adjust as needed */
+    z-index: 1; 
+    width: 11.8rem;
+    height: 11.8rem; 
 }
 .btnhome2:hover{
     background-color: rgba(147,49,22,0.5);
@@ -167,9 +167,9 @@ h2{
     position: absolute;
     top:61.6%;
     left: 12.6%;
-    z-index: 1; /* Ensure the button is above the image */
-    width: 188px; /* Adjust as needed */
-    height: 188px; /* Adjust as needed */
+    z-index: 1; 
+    width: 11.8rem; 
+    height: 11.8rem; 
 }
 .btnhome3:hover{
     background-color: rgba(147,49,22,0.5);
@@ -202,7 +202,7 @@ h2{
 .content4 {
     position: relative;
     z-index: 2; /* Higher z-index so it's above the rec1 */
-    color: black; /* Set text color */
+    color: black; 
     line-height: 250%;
     margin-top:25vh;
     margin-left:27vw;
@@ -210,12 +210,12 @@ h2{
 
 
 }
-.back {
-    width: 10%; /* Adjust the width of the icon */
-    height: 10%; /* Adjust the height of the icon */
-    position: fixed; /* Position the icon relative to the viewport */
-    top: 20px; /* Distance from the top of the viewport */
-    left: 20px; /* Distance from the left of the viewport */
+.back { /*back button on page 2,3,4*/
+    width: 10%; 
+    height: 10%; 
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
 }
 
 #line1{ /*page 3 line 1*/
