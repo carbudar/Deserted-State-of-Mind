@@ -7,6 +7,7 @@ body, html {
 .container {
     position: relative;
     text-align: center;
+    width: 100%;
     color: rgb(44, 44, 44)
 }
 
@@ -44,6 +45,7 @@ body, html {
     font-weight: bold;
     white-space: nowrap; /* Prevent text from wrapping */
     line-height: 200%;
+    color: rgb(183,65,28);
 
 }
 
@@ -61,7 +63,7 @@ body, html {
 }
 
 
-.rec1 {/* white rect over video background page 2*/
+.rec1 {/* white rect over video background page*/
     position: absolute;
     top: 0;
     left: 0;
@@ -82,3 +84,69 @@ h2{
 
 }
 
+.btnhome1 { /*homepage button 1 */
+    background-color: rgba(22,22,22,0.7);
+    
+    display: inline-block;
+    cursor: pointer;
+    border-width: 7px;
+    border-color:rgb(86,86,86);
+    position: absolute;
+    top:30.35%;
+    left: 37.7%;
+    z-index: 1; /* Ensure the button is above the image */
+    width: 188px; /* Adjust as needed */
+    height: 188px; /* Adjust as needed */
+}
+.btnhome1:hover{
+    background-color: rgba(147,49,22,0.5);
+}
+
+.btnhome2 { /*homepage button 2 */
+    background-color: rgba(22,22,22,0.7);
+    
+    display: inline-block;
+    cursor: pointer;
+    border-width: 7px;
+    border-color:rgb(86,86,86);
+    position: absolute;
+    top:42%;
+    left: 55.5%;
+    z-index: 1; /* Ensure the button is above the image */
+    width: 188px; /* Adjust as needed */
+    height: 188px; /* Adjust as needed */
+}
+.btnhome2:hover{
+    background-color: rgba(147,49,22,0.5);
+}
+
+.btnhome3 { /*homepage button 3*/
+    background-color: rgba(22,22,22,0.7);
+    
+    display: inline-block;
+    cursor: pointer;
+    border-width: 7px;
+    border-color:rgb(86,86,86);
+    position: absolute;
+    top:54%;
+    left: 18%;
+    z-index: 1; /* Ensure the button is above the image */
+    width: 188px; /* Adjust as needed */
+    height: 188px; /* Adjust as needed */
+}
+.btnhome3:hover{
+    background-color: rgba(147,49,22,0.5);
+}
+
+#page3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    z-index: -1;
+    object-fit: cover; 
+
+}
