@@ -11,6 +11,11 @@ body, html {
     color: rgb(44, 44, 44)
 }
 
+.homepage{
+    margin-top: 4vh;
+    margin-left: 4vw;
+    margin-right:4vw;
+}
 .top-left { /* Carla Budar 2024 home page*/
     text-align: left;
     position: absolute;
@@ -33,6 +38,17 @@ body, html {
     line-height:150%;
 }
 
+.rightAlign{
+    text-align:right ;
+}
+
+.leftAlign{
+    text-align: left;
+
+}
+.centerAlign{
+    text-align: center;
+}
 
 .title1 {
     text-align: right;
@@ -42,15 +58,14 @@ body, html {
     transform: translate(-50%, -50%);
     z-index: 1;
     font-size: 600%;
-    font-weight: bold;
+    font-weight: 700;
     white-space: nowrap; /* Prevent text from wrapping */
     line-height: 200%;
     color: rgb(183,65,28);
-
 }
 
-#vid1 {
-    position: fixed; /* Make the video fixed position */
+#vid1 {/* video background page 2 */
+    position: fixed; 
     top: 0;
     left: 0;
     min-width: 100%; /* Set minimum width to 100% */
@@ -60,6 +75,18 @@ body, html {
     z-index: -1; /* Send the video to the background */
     object-fit: cover; /* Cover the entire viewport */
     filter: blur(5px);
+}
+
+#vid2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(10px);
+    opacity: 0.8;
 }
 
 
@@ -72,6 +99,16 @@ body, html {
     background: rgba(255, 255, 255, 0.75);
   }
 
+  .rec2 {/* white rect over video background page*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    z-index: 0;
+  }
+
 h2{
     font-size: 100%;
     line-height: 200%;
@@ -80,8 +117,8 @@ h2{
 #center {
     text-align: center;
     margin-top: 40vh;
-    color:rgb(44, 44, 44)
-
+    color:rgb(44, 44, 44);
+    line-height: 250%;
 }
 
 .btnhome1 { /*homepage button 1 */
@@ -110,8 +147,8 @@ h2{
     border-width: 7px;
     border-color:rgb(86,86,86);
     position: absolute;
-    top:42%;
-    left: 55.5%;
+    top:46%;
+    left: 62.8%;
     z-index: 1; /* Ensure the button is above the image */
     width: 188px; /* Adjust as needed */
     height: 188px; /* Adjust as needed */
@@ -128,8 +165,8 @@ h2{
     border-width: 7px;
     border-color:rgb(86,86,86);
     position: absolute;
-    top:54%;
-    left: 18%;
+    top:61.6%;
+    left: 12.6%;
     z-index: 1; /* Ensure the button is above the image */
     width: 188px; /* Adjust as needed */
     height: 188px; /* Adjust as needed */
@@ -138,7 +175,7 @@ h2{
     background-color: rgba(147,49,22,0.5);
 }
 
-#page3 {
+#page3 {/* image background page 3 */
     position: fixed;
     top: 0;
     left: 0;
@@ -149,4 +186,75 @@ h2{
     z-index: -1;
     object-fit: cover; 
 
+}
+
+#squiggle{
+    filter:blur(15px);
+    opacity: 0.7;
+    position:fixed;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    z-index: 1;
+}
+
+.content4 {
+    position: relative;
+    z-index: 2; /* Higher z-index so it's above the rec1 */
+    color: black; /* Set text color */
+    line-height: 250%;
+    margin-top:25vh;
+    margin-left:27vw;
+    margin-right:25vw;
+
+
+}
+.back {
+    width: 10%; /* Adjust the width of the icon */
+    height: 10%; /* Adjust the height of the icon */
+    position: fixed; /* Position the icon relative to the viewport */
+    top: 20px; /* Distance from the top of the viewport */
+    left: 20px; /* Distance from the left of the viewport */
+}
+
+#line1{ /*page 3 line 1*/
+    position:absolute;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: red;
+    top:10vw;
+    left:26vh;
+}
+#line2{ /*page 3 line 2*/
+    position:absolute;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: red;
+    top:45vw;
+    left:45vh;
+}
+#line3{ /*page 3 line 3*/
+    position:absolute;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: red;
+    top:14vw;
+    left:70vh;
+}
+#line4{ /*page 3 line 4*/
+    position:absolute;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: red;
+    top:35vw;
+    left:73vh;
 }
