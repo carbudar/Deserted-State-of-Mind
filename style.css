@@ -220,41 +220,21 @@ h2{
 
 #line1{ /*page 3 line 1*/
     position:absolute;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: red;
     top:10vw;
-    left:26vh;
+    left:30vh;
 }
 #line2{ /*page 3 line 2*/
     position:absolute;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: red;
-    top:45vw;
+    top:40vw;
     left:45vh;
 }
 #line3{ /*page 3 line 3*/
     position:absolute;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: red;
-    top:14vw;
-    left:70vh;
+    top:18vw;
+    left:105vh;
 }
 #line4{ /*page 3 line 4*/
     position:absolute;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: red;
-    top:35vw;
-    left:73vh;
+    top:36vw;
+    left:130vh;
 }
